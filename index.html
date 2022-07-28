@@ -247,8 +247,8 @@
 <!-- cards -->
 
 
-<section >
-<div class="container bg-primary border rounded d-flex w-75 p-5 mx-5 ">
+<section class="container">
+<div class=" bg-primary border rounded d-flex  p-5 mx-5 ">
   <div class="text-light col-md-8" >
     <h2>Ready To Join?</h2>
     <p>It is a long established fact that a reader will be distracted by the <br>
@@ -256,7 +256,30 @@
     
   </div>
   <div class="col-md-4">
-    <a href=""><button type="button" class="btn btn-light text-primary fw-bold">Register now</button></a>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-light text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Register now
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input type="text"  placeholder="enter name">
+        <input type="text" placeholder="enter id">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
   </div>
 </div>
 
@@ -398,9 +421,9 @@
 
 
 <div class="container text-center">
-<a  href="https://www.facebook.com/"><i class="fa-brands fa-facebook  fs-4"></i></a>
-<a  href="https://twitter.com/login"><i class="fa-brands fa-square-twitter fs-4"></i></a>
-<a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fs-4 "></i></a>
+<a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook  fs-4"></i></a>
+<a target="_blank" href="https://twitter.com/login"><i class="fa-brands fa-square-twitter fs-4"></i></a>
+<a target="_blank"  href="https://www.instagram.com/"><i class="fa-brands fa-instagram fs-4 "></i></a>
 
 </div>
 
